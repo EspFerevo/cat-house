@@ -209,3 +209,10 @@
   padding: 16px;
   background-color: var(--blue-light);
 }
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 8px;
+}
